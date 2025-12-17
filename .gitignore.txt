@@ -1,0 +1,10 @@
+# Eclipse
+.metadata/
+bin/
+target/
+
+# Node
+node_modules/
+
+# Environment
+.env
