@@ -10,6 +10,20 @@ Database: MySQL / PostgreSQL (initially H2 for development)
 
 The application allows users to add, view, update, and delete products.
 
+✨ Features
 
+Add a new product
+
+View all products
+
+View product details
+
+Edit existing product
+
+Delete product
+
+REST API based architecture
+
+Clean separation of frontend and backend
 
 
