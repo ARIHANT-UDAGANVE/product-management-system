@@ -26,4 +26,32 @@ REST API based architecture
 
 Clean separation of frontend and backend
 
+🛠️ Tech Stack
+Frontend
+
+React
+
+Axios
+
+React Router DOM
+
+HTML, CSS
+
+Backend
+
+Java 8+
+
+Spring Boot
+
+Spring Web
+
+Spring Data JPA
+
+Hibernate
+
+Database
+
+H2 (for development)
+
+MySQL / PostgreSQL (for production)
 
