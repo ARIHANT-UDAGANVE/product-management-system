@@ -55,34 +55,45 @@ H2 (for development)
 
 MySQL / PostgreSQL (for production)
 
-📁 Project Structure
+▶️ How to Run the Project Locally
 
-Backend (Spring Boot)
+1️⃣ Run Backend
 
-src/main/java/com/productmanagement/backend
-│
-├── BackendApplication.java
-│
-├── controller
+mvn clean package
 
-│   └── ProductController.java
-│
-├── service
+mvn spring-boot:run
 
-│   ├── ProductService.java
 
-│   └── ProductServiceImpl.java
-│
-├── repository
+Backend runs on:
 
-│   └── ProductRepository.java
-│
-├── model
+http://localhost:9001
 
-│   └── Product.java
-│
-└── exception
 
-    ├── ResourceNotFoundException.java
-    
-    └── GlobalExceptionHandler.java
+Test:
+
+http://localhost:9001/api/products
+
+2️⃣ Run Frontend
+
+npm install
+
+npm start
+
+
+Frontend runs on:
+
+http://localhost:3000
+
+🔄 How Frontend and Backend Connect
+
+React uses Axios to send HTTP requests
+
+Backend exposes REST APIs
+
+Data flows as JSON
+
+CORS is enabled in backend
+
+Example API call in React:
+
+axios.get("http://localhost:9001/api/products");
