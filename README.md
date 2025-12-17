@@ -64,18 +64,25 @@ src/main/java/com/productmanagement/backend
 ├── BackendApplication.java
 │
 ├── controller
+
 │   └── ProductController.java
 │
 ├── service
+
 │   ├── ProductService.java
+
 │   └── ProductServiceImpl.java
 │
 ├── repository
+
 │   └── ProductRepository.java
 │
 ├── model
+
 │   └── Product.java
 │
 └── exception
+
     ├── ResourceNotFoundException.java
+    
     └── GlobalExceptionHandler.java
