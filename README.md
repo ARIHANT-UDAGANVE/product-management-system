@@ -66,12 +66,12 @@ mvn spring-boot:run
 
 Backend runs on:
 
-http://localhost:9001
+http://localhost:9002
 
 
 Test:
 
-http://localhost:9001/api/products
+http://localhost:9002/api/products
 
 2️⃣ Run Frontend
 
@@ -96,4 +96,4 @@ CORS is enabled in backend
 
 Example API call in React:
 
-axios.get("http://localhost:9001/api/products");
+axios.get("http://localhost:9002/api/products");
